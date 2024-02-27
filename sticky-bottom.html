@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bootstrap Flex!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        /* Rules for sizing the icon. */
+        .material-icons.md-18 { font-size: 18px; }
+        .material-icons.md-24 { font-size: 24px; }
+        .material-icons.md-36 { font-size: 36px; }
+        .material-icons.md-48 { font-size: 48px; }
+        /* Rules for custom color */
+        .material-icons.md-dark { color: rgb(99, 99, 99); }
+        .material-icons.md-light { color: rgb(230, 230, 230); }
+    </style>
+</head>
+<body class="d-flex flex-column h-100">
+    <header class="container-fluid bg-light border-bottom">
+        <nav class="navbar navbar-expand">
+            <span class="navbar-brand">FLEX</span>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Link</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <h1 class="pt-3 pb-1">Hello Bootstrap Flex!</h1>
+    </div>
+    <div class="d-flex flex-column flex-md-row">
+        <main class="col-md-8">
+            <p class="text-justify">Scriptores antiqui quattuor aetates nominant: aetatem auream, argenteam, aeneam et ferream. De aetate aurea multa in Ovidii poetae carminibus, quae Metamorphoseon libri inscribuntur, legimus. In aetate aurea homines sine legibus tuti erant, nam justitiam et veritatem colebant. Nес leges nec vectigalia timebant. Oppida nec fossis nec vallis aut muris cingebantur. Bella hominibus ignota erant, oppida neque oppugnabantur nec diruebantur. Navigia in maris undis non videbantur, ager non arabatur, nam terra ipsa per se frumentum dabat</p>
+            <h4>Comments<span class="badge badge-pill badge-primary ml-2">1</span></h4>
+            <div class="media p-2 border border-light rounded-lg">
+                <span class="material-icons md-48 md-light">
+                    account_circle
+                </span>
+                <div class="media-body p-1">
+                    <span><strong>Cesar</strong> <small>5 min ago</small>:</span>
+                    <p class="text-justify">In aetate aurea homines sine legibus tuti erant, nam justitiam et veritatem colebant. Nес leges nec vectigalia timebant. Oppida nec fossis nec vallis aut muris cingebantur.</p>
+                </div>
+            </div>
+        </main>
+        <aside class="col-md-4 mt-2 mb-3">
+            <ul class="list-group">
+                <li class="list-group-item acrtive">
+                    <a href="#">Link</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">Link</a>
+                </li>
+                <li class="list-group-item disabled">
+                    <a href="#" class="text-dark">Disabled</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="container-fluid mt-auto border-top bg-light">
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>    
+        </nav>
+        <span class="d-block text-center pb-3">&copy; All rights reserved... or not:)</span>
+    </footer>
+</body>
+</html>
